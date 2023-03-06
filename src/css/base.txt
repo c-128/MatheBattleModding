@@ -1,0 +1,209 @@
+:root {
+  --theme-palette-background: #121212;
+  --theme-palette-divider: #ffffff1f;
+
+  --theme-text-primary: #ffffff;
+  --theme-text-secondary: #ffffffb3;
+  --theme-text-disabled: #ffffff80;
+
+  --theme-palette-primary-light: #42a5f5;
+  --theme-palette-primary-main: #1976d2;
+  --theme-palette-primary-dark: #1565c0;
+
+  --theme-palette-error-light: #ef5350;
+  --theme-palette-error-main: #d32f2f;
+  --theme-palette-error-dark: #c62828;
+
+  --divider-width: 2px;
+
+  --border-radius-text: 4px;
+  --padding-text-x: 4px;
+  --padding-text-y: 4px;
+
+  --border-radius-button: 4px;
+  --padding-button-x: 4px;
+  --padding-button-y: 4px;
+
+  --border-radius-message: 4px;
+  --padding-message-x: 4px;
+  --padding-message-y: 4px;
+}
+
+#page {
+  width: 100%;
+}
+
+#content {
+  width: 96%;
+  margin-right: 2%;
+  margin-left: 2%;
+
+  position: absolute;
+  top: 65px;
+}
+
+* {
+  color: var(--theme-text-primary) !important;
+}
+
+input[type=text], input[type=password] {
+  background-color: var(--theme-palette-background) !important;
+  border: var(--divider-width) var(--theme-palette-divider) solid;
+  border-radius: var(--border-radius-text);
+  padding: var(--padding-text-y) var(--padding-text-x);
+}
+
+input:focus {
+  outline: none !important;
+  border-color: var(--theme-palette-primary-main) !important;
+}
+
+input[type=submit] {
+  background-color: var(--theme-palette-primary-main) !important;
+  text-shadow: none !important;
+  background-image: none !important;
+  cursor: pointer;
+  border-radius: var(--border-radius-button) !important;
+  padding: var(--padding-button-y) var(--padding-button-x);
+  border: none;
+}
+
+#highscore {
+  border: none !important;
+}
+
+#highscore hr {
+  border-color: var(--theme-palette-divider) !important;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--theme-palette-background) !important;
+}
+
+#page_whole_width, #content {
+  background-color: var(--theme-palette-background) !important;
+  background-image: none !important;
+}
+
+#footer {
+  display: none;
+}
+
+label, .label {
+  color: var(--theme-text-secondary) !important;
+  font-style: normal !important;
+}
+
+.hp_box, .battle_box, .grau_kasten, #EduBattleStat, .box {
+  box-shadow: none;
+  border: var(--divider-width) var(--theme-palette-divider) solid !important;
+  background-color: var(--theme-palette-background) !important;
+}
+
+.battle_box .end_date {
+  color: var(--theme-text-secondary) !important;
+  font-style: normal !important;
+}
+
+.battle_box a {
+  color: var(--theme-text-primary) !important;
+}
+
+.battle_box a:hover {
+  text-decoration: none !important;
+}
+
+.news_box_hp {
+  border-bottom: var(--divider-width) var(--theme-palette-divider) solid !important;
+}
+
+.hp_news_date {
+  color: var(--theme-text-secondary) !important;
+}
+
+.buttons a {
+  background-color: var(--theme-palette-primary-main) !important;
+}
+
+.fright .note, .note {
+  display: none;
+}
+
+a {
+  color: var(--theme-palette-primary-main) !important;
+}
+
+tbody * {
+  background-color: var(--theme-palette-background) !important;
+}
+
+.hl_kurs em {
+  font-style: normal !important;
+}
+
+#flashMessage {
+  background-color: var(--theme-palette-error-main) !important;
+  background-image: none !important;
+  border: none !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  padding: var(--padding-message-y) var(--padding-message-x);
+  border-radius: var(--border-radius-message);
+}
+
+#login_top {
+  position: absolute !important;
+  top: 5px !important;
+  right: 0 !important;
+}
+
+#login_top .log_status {
+  color: var(--theme-text-secondary) !important;
+  font-style: normal !important;
+}
+
+#login_top .log_status_name {
+  color: var(--theme-text-secondary) !important;
+  font-style: normal !important;
+}
+
+#login_top a {
+  color: var(--theme-text-primary) !important;
+}
+
+#login_top a:hover {
+  text-decoration: none !important;
+}
+
+.comment a {
+  font-style: normal !important;
+}
+
+#header_col1 {
+  display: none;
+  height: 0;
+}
+
+#header {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100%;
+  height: 65px !important;
+
+  background-color: var(--theme-palette-primary-dark) !important;
+}
+
+#header * {
+  background: none !important;
+}
+
+#menu_div {
+  position: unset !important;
+  width: 100%;
+}
+
+#menu li a {
+  color: var(--theme-text-primary) !important;
+}

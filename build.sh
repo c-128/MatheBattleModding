@@ -1,0 +1,1 @@
+esbuild src/index.ts --bundle --outdir=dist --watch
